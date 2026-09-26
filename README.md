@@ -534,12 +534,12 @@ Las validaciones de ruta actúan como primera barrera (Frontend), complementando
 * **Versiones:** Móvil (scroll vertical); Web (formulario tipo tarjeta centrada).
 * **Estados y Validaciones:** Indicador de contraseña segura en tiempo real, IonToast de éxito al crear cuenta.
 
-**3. Biblioteca de Libros (/home) - RF-02**
-* **Objetivo:** Explorar el catálogo disponible y continuar lecturas (Paciente).
-* **Componentes:** IonSearchbar, IonCard (portada, título), IonProgressBar (progreso actual).
-* **Navegación:** Conduce a /books/:id.
-* **Versiones:** Móvil (lista vertical, IonTabs inferior); Web (grilla de 3-4 columnas, IonMenu lateral).
-* **Estados y Validaciones:** Carga (IonSkeletonText), Vacío (ilustración "Sin libros").
+**3. Mis Libros (/home) - RF-02
+
+- **Objetivo:** Mostrar los libros disponibles y permitir al paciente continuar su lectura.
+- **Componentes:** Tarjetas de libros, portada, título, indicador de progreso y botón de acceso.
+- **Navegación:** Permite acceder a los capítulos del libro seleccionado.
+- **Versiones:** Móvil (lista vertical); Web (distribución de tarjetas adaptada al espacio disponible).
 
 **4. Detalle de Libro y Capítulos (/books/:id) - RF-02**
 * **Objetivo:** Mostrar sinopsis y lista de capítulos desbloqueados (Paciente).
